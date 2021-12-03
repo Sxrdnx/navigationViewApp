@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home24dp"
+            android:title="@string/home_fragment_title" />
+        <item
+            android:icon="@drawable/ic_departure"
+            android:id="@+id/nav_departures"
+            android:title="@string/departures_fragment_title"
+            />
+        <item
+            android:icon="@drawable/ic_arrival"
+            android:id="@+id/nav_arrivals"
+            android:title="@string/arrivals_fragment_title"
+            />
+    </group>
+    <item
+        android:title="@string/other_element">
+        <menu>
+            <item
+                android:icon="@drawable/ic_profile"
+                android:id="@+id/nav_profile"
+                android:title="Profile"/>
+            <item
+                android:icon="@drawable/ic_settings"
+                android:id="@+id/nav_settings"
+                android:title="Settings"/>
+        </menu>
+    </item>
+</menu>
